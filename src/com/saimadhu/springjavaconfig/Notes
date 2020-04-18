@@ -1,0 +1,12 @@
+ steps for Java Configuration of Spring beans:
+ 
+ 1. create a java class and annotate as @Configuration
+ 2. Add component scanning support @ComponentScan(">>>Add the package name here<<<");
+ 3. Read Spring Java configuration class
+ 4. Retrieve bean from Spring container.
+ 
+ Reading spring java configuration class
+ AnnotationConfigApplicationContext context =
+ 									new  AnnotationConfigApplicationContext(<className>.class);
+ 									
+ 	
